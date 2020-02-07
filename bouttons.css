@@ -1,0 +1,203 @@
+  .button1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-350%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+    
+  }
+
+  .button1::after{
+    content: "Accueil";
+  }
+
+  .button2::after{
+    content: "Vitesse et direction du vent";
+  }
+
+  .button3::after{
+    content: "Simuler une éolienne";
+  }
+  
+  .button4::after{
+    content: "Progression du rendement";
+  }
+  
+  .button5::after{
+    content: "Comparer plusieurs éoliennes";
+  }
+  
+  .button6::after{
+    content: "Comparer le rendement énergétique sur sites";
+  }
+  /* changer noms des bouttons ici */
+
+  .button2 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-230%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+    
+  }
+
+  .button3 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+    
+  }
+
+  .button4 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(+10%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+    
+  }
+
+  .button5 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(+130%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .button6 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+    
+  }
+
+  .acc {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+
+.rose {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+  .button1:hover {
+    background-color: black;
+  }
+
+  .button2:hover {
+    background-color: black;
+  }
+
+  .button3:hover {
+    background-color: black;
+  }
+
+  .button4:hover {
+    background-color: black;
+  }
+
+  .button5:hover {
+    background-color: black;
+  }
+
+  .button6:hover {
+    background-color: black;
+  }
+
+
+  body {
+    background-image: url('390306.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
