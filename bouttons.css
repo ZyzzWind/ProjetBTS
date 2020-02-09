@@ -1,4 +1,4 @@
-  .button1 {
+  .button_home {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -17,32 +17,32 @@
     
   }
 
-  .button1::after{
+  .button_home::after{
     content: "Accueil";
   }
 
-  .button2::after{
+  .button_speed_direction::after{
     content: "Vitesse et direction du vent";
   }
 
-  .button3::after{
+  .button_simulation::after{
     content: "Simuler une éolienne";
   }
   
-  .button4::after{
+  .button_progress::after{
     content: "Progression du rendement";
   }
   
-  .button5::after{
+  .button_compare_windmill::after{
     content: "Comparer plusieurs éoliennes";
   }
   
-  .button6::after{
+  .button_compare_places::after{
     content: "Comparer le rendement énergétique sur sites";
   }
   /* changer noms des bouttons ici */
 
-  .button2 {
+  .button_speed_direction {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -61,7 +61,7 @@
     
   }
 
-  .button3 {
+  .button_simulation {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -80,7 +80,7 @@
     
   }
 
-  .button4 {
+  .button_progress {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -99,7 +99,7 @@
     
   }
 
-  .button5 {
+  .button_compare_windmill {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -117,7 +117,7 @@
     text-decoration:none
   }
 
-  .button6 {
+  .button_compare_places {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -170,33 +170,33 @@
   text-align: center;
 }
 
-  .button1:hover {
+  .button_home:hover {
     background-color: black;
   }
 
-  .button2:hover {
+  .button_speed_direction:hover {
     background-color: black;
   }
 
-  .button3:hover {
+  .button_simulation:hover {
     background-color: black;
   }
 
-  .button4:hover {
+  .button_progress:hover {
     background-color: black;
   }
 
-  .button5:hover {
+  .button_compare_windmill:hover {
     background-color: black;
   }
 
-  .button6:hover {
+  .button_compare_places:hover {
     background-color: black;
   }
 
 
   body {
-    background-image: url('390306.jpg');
+    background-image: url('site_background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
