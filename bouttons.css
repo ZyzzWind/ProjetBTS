@@ -26,11 +26,11 @@
   }
 
   .button_simulation::after{
-    content: "Simuler une éolienne";
+    content: "Simuler une production énergétique";
   }
   
   .button_progress::after{
-    content: "Progression du rendement";
+    content: "Progression de la production énergétique";
   }
   
   .button_compare_windmill::after{
@@ -38,7 +38,7 @@
   }
   
   .button_compare_places::after{
-    content: "Comparer le rendement énergétique sur sites";
+    content: "Comparer le rendement énergétique sur plusieurs sites";
   }
   /* changer noms des bouttons ici */
 
