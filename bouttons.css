@@ -5,7 +5,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(-350%, -50%);
     z-index: 2;
@@ -40,6 +40,7 @@
   .button_compare_places::after{
     content: "Comparer le rendement énergétique sur plusieurs sites";
   }
+
   /* changer noms des bouttons ici */
 
   .button_speed_direction {
@@ -49,7 +50,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(-230%, -50%);
     z-index: 2;
@@ -68,7 +69,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(-110%, -50%);
     z-index: 2;
@@ -87,7 +88,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(+10%, -50%);
     z-index: 2;
@@ -106,7 +107,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(+130%, -50%);
     z-index: 2;
@@ -124,7 +125,7 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: 50%;
     transform: translate(+250%, -50%);
     z-index: 2;
@@ -136,6 +137,28 @@
     
   }
 
+  .button_menu_login {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 2;
+    width: 5%;
+    height: 3%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .button_menu_login.p{
+    top: 5%;
+  }
+  
   .acc {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -154,21 +177,22 @@
   }
 
 
-.rose {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 2px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
+  .rose {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 75%;
+    padding: 20px;
+    text-align: center;
+  }
 
   .button_home:hover {
     background-color: black;
@@ -194,6 +218,9 @@
     background-color: black;
   }
 
+  .button_menu_login:hover {
+    background-color: black;
+  }
 
   body {
     background-image: url('site_background.jpg');
