@@ -30,15 +30,15 @@
   }
   
   .button_progress::after{
-    content: "Progression de la production énergétique";
+    content: "Evolution de la production énergétique";
   }
   
   .button_compare_windmill::after{
-    content: "Comparer plusieurs éoliennes";
+    content: "Comparer la production énergétique de plusieurs éoliennes";
   }
   
   .button_compare_places::after{
-    content: "Comparer le rendement énergétique sur plusieurs sites";
+    content: "Comparer la production énergétique sur plusieurs sites";
   }
 
   #button_logout::after{
