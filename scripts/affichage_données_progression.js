@@ -1,4 +1,4 @@
-var production = [359,257,159,252,47,589,521,357,685,145,147,521];
+var production = [359,186,159,252,47,589,521,357,685,145,147,521];
 var max = production[0];
 
 for (let i=0; i < 12; i++) 
@@ -8,6 +8,13 @@ for (let i=0; i < 12; i++)
         max = production [i];
     }
 }
+
+var echelle_max = document.getElementById("pui_max");
+echelle_max.textContent=max;
+var echelle_inter2 = document.getElementById("pui_inter_2");
+echelle_inter2.textContent=Math.round((max/3)*2);
+var echelle_inter1 = document.getElementById("pui_inter_1");
+echelle_inter1.textContent=Math.round(max/3);
 
 var barre_Janvier = document.getElementById("Histo_Janvier");
 var valeur_Janvier = (production[0]/max)*530;
