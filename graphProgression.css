@@ -18,6 +18,8 @@
 
 
   .graph {
+    top: 10%;
+    display: none;
     height: 580px;
     width: 1200px;
     position: absolute;

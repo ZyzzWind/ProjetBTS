@@ -41,9 +41,8 @@
   <text x="1080" y="610">Eolienne 11</text>
   <text x="1200" y="640" class="label-title">Eoliennes</text>
 
-  <!-- decalage de 100 en x -->
-
 </g>
+
 <g class="labels y-labels">
   <text x="80" y="60">15</text>
   <text x="80" y="240">10</text>
@@ -54,9 +53,9 @@
 <g class="label y-titre">
  <text x="50" y="290" class="label-title">Mw</text>
 </g>
-<!-- height = prod energetique y = 380 - height -->
+<!-- height = prod energetique y = 580 - height -->
 <g class="data" data-setname="Our first data set">
-  <rect id="Histo_Eolienne1" x="90" y="380" width="50" height="0"  ></rect>
+  <rect id="Histo_Eolienne1" x="90" y="330" width="50" height=""  ></rect>
   <rect id="Histo_Eolienne2" x="195" y="380" width="50" height="0" ></rect>
   <rect id="Histo_Eolienne3" x="290" y="380" width="50" height="0" ></rect>
   <rect id="Histo_Eolienne4" x="385" y="380" width="50" height="0" ></rect>

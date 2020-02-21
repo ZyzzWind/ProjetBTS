@@ -1,14 +1,15 @@
-  .graphComp .labels.x-labels {
+
+  .graphJour .labels.x-labels {
     text-anchor: middle;
     fill: white;
   }
   
-  .graphComp .labels.y-labels {
+  .graphJour .labels.y-labels {
     text-anchor: end;
     fill: white;
   }
   
-  .graphComp .label-title{
+  .graphJour .label-title{
     text-anchor: end;
     fill: white;
     font-size: 10px;
@@ -16,7 +17,7 @@
   }
 
 
-  .graphComp {
+  .graphJour {
     top: 10%;
     height: 690px;
     width: 1200px;
@@ -24,7 +25,7 @@
     left:0%;
   }
   
-  .graphComp .grid {
+  .graphJour .grid {
     stroke: #ccc;
     stroke-dasharray: 0;
     stroke-width: 1;
