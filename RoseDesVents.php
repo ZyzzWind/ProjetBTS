@@ -11,6 +11,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   <link rel="stylesheet" href="style.css"></link>
   <link rel="stylesheet" href="bouttons.css"></link>
+  <link rel="stylesheet" href="graph.css"></link>
 </head>
 
 
@@ -19,7 +20,10 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 	<script type="text/javascript" src="./scripts/ShaderProgram.js"></script>
 	<script type="text/javascript" src="./scripts/Stats2.js"></script>
 	<script type="text/javascript" src="./scripts/Snow.js"></script>
+
 	<?php include('header.php') ?>
+
+
 
 <script type="application/javascript" src="./scripts/var_globales.js"></script>
 <script type="application/javascript" src="./scripts/creation_zone.js"></script>
@@ -31,18 +35,25 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 <script type="application/javascript" src="./scripts/detection_resolution.js"></script>
 
 
-
 <div class="rose">
     <div id="rose_des_vents1">
-			
+
 			<!--<img style="width:700px; height:700px; position:absolute; opacity:0;" usemap="#zone_circulaire1"/>
 			<map name="zone_circulaire1">
 				<area shape="circle" coords="350,350,350" id="img_zone_circulaire1"/>
 			</map>-->
-			
+
+			<svg:svg width="60" height="550" transform="translate(870 -75)">
+				<svg:g>
+				<svg:rect id="rect2" width="60" height="550"  stroke="white" fill="none" stroke-width="4" fill-opacity="0.4"  />
+					<svg:rect id="rect" width="60" height="330" fill="black" stroke="white" stroke-width="3" transform="translate(0 220)" />
+				</svg:g>
+			</svg:svg>
+
+
 			<!-- Zone SVG -->
 			<svg:svg width="700px" height="700px">
-
+					
 				<!-- Grand cercle -->
 				<svg:circle r="350" cy="350" cx="350" stroke-width="4" stroke="white" fill="none"/>
 
@@ -51,10 +62,10 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 		
 				<!-- Petit cercle -->
 				<svg:circle r="150" cy="350" cx="350" stroke-width="1" stroke="white" fill="white" id="c150"/>
-		
 
 				<!-- Groupement des lignes -->
 				<svg:g id="lignes_zones1" stroke="white" stroke-width="3"/>
+
 				
 
 				<!-- Groupement des noms de zone -->
@@ -77,8 +88,9 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 					<svg:text x="245" y="260" stroke="darkred">NO</svg:text>
 					<svg:text x="280" y="233" stroke="darkred">NNO</svg:text>
 				</svg:g>
-				
+
 			</svg:svg>
+
 		</div>
 	</div>
 

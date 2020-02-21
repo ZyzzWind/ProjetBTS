@@ -15,7 +15,9 @@
   <script type="text/javascript" src="./scripts/Stats2.js"></script>
   <script type="text/javascript" src="./scripts/Snow.js"></script>
 
-  
+  <div class="rose">
+
+</div>
 
 
 </body>
