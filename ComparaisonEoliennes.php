@@ -18,6 +18,7 @@
 
   <div class="rose">
 
+  <a id="window_e1"></a>
 
   <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graphComp" aria-labelledby="title" role="img">
   <title id="title">Graphique de la progression de la production</title>
