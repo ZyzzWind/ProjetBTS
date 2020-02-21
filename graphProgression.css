@@ -18,9 +18,10 @@
 
 
   .graph {
-    height: 690px;
+    height: 580px;
     width: 1200px;
     position: absolute;
+    top: 10%;
     left:0%;
   }
   
