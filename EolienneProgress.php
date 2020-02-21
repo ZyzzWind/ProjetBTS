@@ -60,22 +60,22 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 
 </g>
 <g class="labels y-labels">
-  <text x="80" y="10">15</text>
-  <text x="80" y="190">10</text>
-  <text x="80" y="370">5</text>
+  <text class="pui_max" x="80" y="10"></text>
+  <text class="pui_inter_2" x="80" y="190"></text>
+  <text class="pui_inter_1" x="80" y="370"></text>
   <text x="80" y="540">0</text>
 </g>
 
 <g class="label y-titre">
  <text x="50" y="290" class="label-title">Mw</text>
 </g>
-<!-- height = prod energetique y = 330 - height -->
+<!-- height = prod energetique y = 530 - height -->
 <g class="data" data-setname="Our first data set">
   <rect id="Histo_Janvier" x="90" y="0" width="50" height="0"  ></rect>
   <rect id="Histo_Fevrier" x="195" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Mars" x="290" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Avril" x="385" y="0" width="50" height="0" ></rect>
-  <rect id="Histo_Mai" x="430" y="0" width="50" height="0" ></rect>
+  <rect id="Histo_Mai" x="480" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Juin" x="575" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Juillet" x="670" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Aout" x="765" y="0" width="50" height="0" ></rect>
@@ -142,9 +142,9 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 
 </g>
 <g class="labels y-labels">
-  <text x="80" y="10">15</text>
-  <text x="80" y="190">10</text>
-  <text x="80" y="370">5</text>
+  <text class="pui_max" x="80" y="10"></text>
+  <text class="pui_inter_2" x="80" y="190"></text>
+  <text class="pui_inter_1" x="80" y="370"></text>
   <text x="80" y="540">0</text>
 </g>
 
@@ -153,37 +153,37 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 </g>
 <!-- height = prod energetique y = 530 - height -->
 <g class="data" data-setname="Our first data set">
-  <rect id="Histo_1" x="90" y="330" width="20" height="200"  ></rect>
-  <rect id="Histo_2" x="125" y="430" width="20" height="100" ></rect>
-  <rect id="Histo_5" x="160" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_4" x="195" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_5" x="230" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_6" x="265" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_7" x="300" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_8" x="335" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_9" x="370" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_10" x="405" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_11" x="440" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_12" x="475" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_13" x="510" y="330" width="20" height="200"  ></rect>
-  <rect id="Histo_14" x="545" y="430" width="20" height="100" ></rect>
-  <rect id="Histo_15" x="580" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_16" x="615" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_17" x="650" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_18" x="685" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_19" x="720" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_20" x="755" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_21" x="790" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_22" x="825" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_23" x="860" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_24" x="895" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_25" x="930" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_26" x="965" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_27" x="1000" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_28" x="1035" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_29" x="1070" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_30" x="1105" y="330" width="20" height="200" ></rect>
-  <rect id="Histo_31" x="1140" y="330" width="20" height="200" ></rect>
+  <rect id="Histo_1" x="90" y="0" width="20" height="0"  ></rect>
+  <rect id="Histo_2" x="125" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_3" x="160" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_4" x="195" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_5" x="230" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_6" x="265" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_7" x="300" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_8" x="335" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_9" x="370" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_10" x="405" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_11" x="440" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_12" x="475" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_13" x="510" y="0" width="20" height="0"  ></rect>
+  <rect id="Histo_14" x="545" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_15" x="580" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_16" x="615" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_17" x="650" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_18" x="685" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_19" x="720" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_20" x="755" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_21" x="790" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_22" x="825" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_23" x="860" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_24" x="895" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_25" x="930" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_26" x="965" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_27" x="1000" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_28" x="1035" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_29" x="1070" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_30" x="1105" y="0" width="20" height="0" ></rect>
+  <rect id="Histo_31" x="1140" y="0" width="20" height="0" ></rect>
 
 </g>
 </svg>

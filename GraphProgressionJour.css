@@ -19,6 +19,7 @@
 
   .graphJour {
     top: 10%;
+    /*display: none;*/
     height: 690px;
     width: 1200px;
     position: absolute;

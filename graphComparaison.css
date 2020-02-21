@@ -42,7 +42,61 @@
   }
   
   .data {
-    fill: red;
     stroke: white;
     stroke-width: 1; 
+  }
+  
+  #Histo_Eolienne1
+  {
+    fill: red;
+  }
+
+  #Histo_Eolienne2
+  {
+    fill: blue;
+  } 
+
+  #Histo_Eolienne3
+  {
+    fill: green;
+  }
+
+  #Histo_Eolienne4
+  {
+    fill: lightgoldenrodyellow;
+  }
+
+  #Histo_Eolienne5
+  {
+    fill: purple;
+  }
+
+  #Histo_Eolienne6
+  {
+    fill: orange;
+  }
+
+  #Histo_Eolienne7
+  {
+    fill: lightsalmon;
+  }
+
+  #Histo_Eolienne8
+  {
+    fill: gray;
+  }
+
+  #Histo_Eolienne9
+  {
+    fill: blueviolet;
+  }
+
+  #Histo_Eolienne10
+  {
+    fill: chartreuse;
+  }
+
+  #Histo_Eolienne11
+  {
+    fill: firebrick;
   }
