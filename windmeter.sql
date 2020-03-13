@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  ven. 13 mars 2020 à 12:26
+-- Généré le :  ven. 13 mars 2020 à 13:09
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -31,13 +31,25 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `donnees_vent`;
 CREATE TABLE IF NOT EXISTS `donnees_vent` (
   `iddonnees_vent` int(11) NOT NULL AUTO_INCREMENT,
-  `time` datetime NOT NULL,
+  `annee` int(11) NOT NULL,
+  `mois` int(11) NOT NULL,
+  `jour` int(11) NOT NULL,
+  `heure` int(11) NOT NULL,
+  `minute` int(11) NOT NULL,
+  `seconde` int(11) NOT NULL,
   `wind_speed_avg` float NOT NULL,
   `wind_heading` float NOT NULL,
   `lieux_idlieux` int(11) NOT NULL,
   PRIMARY KEY (`iddonnees_vent`),
   KEY `fk_donnees_vent_lieux_idx` (`lieux_idlieux`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `donnees_vent`
+--
+
+INSERT INTO `donnees_vent` (`iddonnees_vent`, `annee`, `mois`, `jour`, `heure`, `minute`, `seconde`, `wind_speed_avg`, `wind_heading`, `lieux_idlieux`) VALUES
+(2, 2020, 1, 21, 8, 40, 27, 9, 135, 2);
 
 -- --------------------------------------------------------
 
@@ -72,7 +84,14 @@ CREATE TABLE IF NOT EXISTS `lieux` (
   `latitude` double NOT NULL,
   `longitude` double NOT NULL,
   PRIMARY KEY (`idlieux`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `lieux`
+--
+
+INSERT INTO `lieux` (`idlieux`, `id_pioupiou`, `latitude`, `longitude`) VALUES
+(1, 2, 45.273475, 5.640863);
 
 -- --------------------------------------------------------
 
