@@ -18,12 +18,11 @@
 
 
   .graphJour {
-    top: 10%;
-    /*display: none;*/
+    top: 15%;
     height: 690px;
     width: 1200px;
     position: absolute;
-    left:0%;
+    left:13%;
   }
   
   .graphJour .grid {

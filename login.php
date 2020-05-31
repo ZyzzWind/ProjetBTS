@@ -20,5 +20,9 @@
     $_SESSION['user']=$resultat->user;
     header('Location: index.php');
   }
+  else
+  {
+    header('Location: index.php');
+  }
   
 ?>

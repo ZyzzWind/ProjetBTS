@@ -17,11 +17,11 @@
 
 
   .graphComp {
-    top: 10%;
-    height: 690px;
+    top: 13%;
+    height: 580px;
     width: 1200px;
     position: absolute;
-    left:0%;
+    left:11%;
   }
   
   .graphComp .grid {
@@ -100,3 +100,59 @@
   {
     fill: firebrick;
   }
+
+  #Histo_Site1
+  {
+    fill: red;
+  }
+
+  #Histo_Site2
+  {
+    fill: blue;
+  } 
+
+  #Histo_Site3
+  {
+    fill: green;
+  }
+
+  #Histo_Site4
+  {
+    fill: lightgoldenrodyellow;
+  }
+
+  #Histo_Site5
+  {
+    fill: purple;
+  }
+
+  #Histo_Site6
+  {
+    fill: orange;
+  }
+
+  #Histo_Site7
+  {
+    fill: lightsalmon;
+  }
+
+  #Histo_Site8
+  {
+    fill: gray;
+  }
+
+  #Histo_Site9
+  {
+    fill: blueviolet;
+  }
+
+  #Histo_Site10
+  {
+    fill: chartreuse;
+  }
+
+  #Histo_Site11
+  {
+    fill: firebrick;
+  }
+  

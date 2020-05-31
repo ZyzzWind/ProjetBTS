@@ -18,13 +18,11 @@
 
 
   .graph {
-    top: 10%;
-    display: none;
     height: 580px;
     width: 1200px;
     position: absolute;
-    top: 10%;
-    left:0%;
+    top: 15%;
+    left: 13%;
   }
   
   .graph .grid {
@@ -45,7 +43,75 @@
   }
   
   .data {
-    fill: red;
     stroke: white;
     stroke-width: 1; 
   }
+
+  #Histo_Janvier
+  {
+    fill: red;
+  }
+
+  #Histo_Fevrier
+  {
+    fill: blue;
+  } 
+
+  #Histo_Mars
+  {
+    fill: green;
+  }
+
+  #Histo_Avril
+  {
+    fill: lightgoldenrodyellow;
+  }
+
+  #Histo_Mai
+  {
+    fill: purple;
+  }
+
+  #Histo_Juin
+  {
+    fill: orange;
+  }
+
+  #Histo_Juillet
+  {
+    fill: lightsalmon;
+  }
+
+  #Histo_Aout
+  {
+    fill: gray;
+  }
+
+  #Histo_Septembre
+  {
+    fill: blueviolet;
+  }
+
+  #Histo_Octobre
+  {
+    fill: chartreuse;
+  }
+
+  #Histo_Novembre
+  {
+    fill: firebrick;
+  }
+
+  #Histo_Decembre
+  {
+    fill: hotpink;
+  }
+
+   /***** Progression de la évolution énergétique *****/
+
+   .selectAnneePPE { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+   .selectMoisPPE { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+   .selectPiouPiouPPE { position: absolute; left: 1%; right: 0%; top: 9%; bottom: 0%; height: 20px; width: 150px; }
+   .selectEoliennePPE { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 180px; }
+
+   

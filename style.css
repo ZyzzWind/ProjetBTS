@@ -2,3 +2,96 @@
     body { margin: 0; background: #0F2027; background: linear-gradient(to bottom, #0F2027, #080e10); }
     canvas { display: block; }
     .particles { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+    /***** Vitesse et direction du vent *****/
+
+    .selectAnneeRDV_Start_RDV_1 { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_Start_RDV_1 { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_Start_RDV_1 { position: absolute; left: 14%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectAnneeRDV_End_RDV_1 { position: absolute; left: 1%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_End_RDV_1 { position: absolute; left: 8%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_End_RDV_1 { position: absolute; left: 14%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectPiouPiouRDV_1 { position: absolute; left: 1%; right: 0%; top: 20%; bottom: 0%; height: 20px; width: 150px; }
+
+    .txt_periode_RDV_1{ color: sandybrown; font-size: 200%; text-transform: uppercase; position: absolute; left: 0%; right: 80%; top: 4%; bottom: 0%; }
+
+    .selectAnneeRDV_Start_RDV_2 { position: absolute; left: 43.35%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_Start_RDV_2 { position: absolute; left: 50.35%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_Start_RDV_2 { position: absolute; left: 56.35%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectAnneeRDV_End_RDV_2 { position: absolute; left: 43.35%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_End_RDV_2 { position: absolute; left: 50.35%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_End_RDV_2 { position: absolute; left: 56.35%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectPiouPiouRDV_2 { position: absolute; left: 43.35%; right: 0%; top: 20%; bottom: 0%; height: 20px; width: 150px; }
+
+    .txt_periode_RDV_2{ color: sandybrown; font-size: 200%; text-transform: uppercase; position: absolute; left: 4.8%; right: 0%; top: 4%; bottom: 0%; }    
+
+    .selectAnneeRDV_Start_RDV_3 { position: absolute; left: 70.4%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_Start_RDV_3 { position: absolute; left: 77.4%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_Start_RDV_3 { position: absolute; left: 83.4%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectAnneeRDV_End_RDV_3 { position: absolute; left: 70.4%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisRDV_End_RDV_3 { position: absolute; left: 77.4%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursRDV_End_RDV_3 { position: absolute; left: 83.4%; right: 0%; top: 15%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectPiouPiouRDV_3 { position: absolute; left: 70.4%; right: 0%; top: 20%; bottom: 0%; height: 20px; width: 150px; }
+
+    .txt_periode_RDV_3{ color: sandybrown; font-size: 200%; text-transform: uppercase; position: absolute; left: 59%; right: 0%; top: 4%; bottom: 0%; }
+    
+    /***** Simuler une production énergétique *****/
+
+    .selectAnneeSPE { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisSPE { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursSPE { position: absolute; left: 14%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectPiouPiouSPE { position: absolute; left: 1%; right: 0%; top: 9%; bottom: 0%; height: 20px; width: 150px; }
+
+    .selectEolienneSPE { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 180px; }
+
+    /***** Progression de la évolution énergétique *****/
+
+    .selectAnneePPE { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisPPE { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectPiouPiouPPE { position: absolute; left: 1%; right: 0%; top: 9%; bottom: 0%; height: 20px; width: 150px; }
+    .selectEoliennePPE { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 180px; }
+
+    /***** Comparer plusieurs éoliennes *****/
+
+    .selectAnneeCPE { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisCPE { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursCPE { position: absolute; left: 14%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectPiouPiouCPE { position: absolute; left: 1%; right: 0%; top: 9%; bottom: 0%; height: 20px; width: 150px; }
+
+    .selectEolienneCPE1 { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 180px; }
+    .selectEolienneCPE2 { position: absolute; left: 1%; right: 0%; top: 19%; bottom: 0%; height: 20px; width: 180px; }
+    .selectEolienneCPE3 { position: absolute; left: 1%; right: 0%; top: 24%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE4 { position: absolute; left: 1%; right: 0%; top: 29%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE5 { position: absolute; left: 1%; right: 0%; top: 34%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE6 { position: absolute; left: 1%; right: 0%; top: 39%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE7 { position: absolute; left: 1%; right: 0%; top: 44%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE8 { position: absolute; left: 1%; right: 0%; top: 49%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE9 { position: absolute; left: 1%; right: 0%; top: 54%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE10 { position: absolute; left: 1%; right: 0%; top: 59%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE11 { position: absolute; left: 1%; right: 0%; top: 64%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE12 { position: absolute; left: 1%; right: 0%; top: 69%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE13 { position: absolute; left: 1%; right: 0%; top: 74%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE14 { position: absolute; left: 1%; right: 0%; top: 79%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE15 { position: absolute; left: 1%; right: 0%; top: 84%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+    .selectEolienneCPE16 { position: absolute; left: 1%; right: 0%; top: 89%; bottom: 0%; height: 20px; width: 180px; visibility: hidden; }
+
+
+    /***** Comparer plusieurs sites *****/
+
+    .selectAnneeCPS { position: absolute; left: 1%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 100px; }
+    .selectMoisCPS { position: absolute; left: 8%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 85px; }
+    .selectJoursCPS { position: absolute; left: 14%; right: 0%; top: 4%; bottom: 0%; height: 20px; width: 80px; }
+
+    .selectEolienneCPS { position: absolute; left: 1%; right: 0%; top: 9%; bottom: 0%; height: 20px; width: 180px; }
+
+    .selectPiouPiouCPS1 { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 150px; }
+    .selectPiouPiouCPS2 { position: absolute; left: 1%; right: 0%; top: 19%; bottom: 0%; height: 20px; width: 150px; }
+    
