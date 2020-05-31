@@ -16,8 +16,19 @@ echelle_inter2[0].textContent=Math.round((max/3)*2);
 var echelle_inter1 = document.getElementsByClassName("pui_inter_1");
 echelle_inter1[0].textContent=Math.round(max/3);
 
+
+
+
 var site = [];
 var valeur =[];
+
+function souris(event)
+{
+    document.getElementById('positionX').value = event.clientX;
+    document.getElementById('positionY').value = event.clientY;
+}
+
+var_window = document.getElementById("window_e1");
 
 for(let i = 0; i < 11; i++)
 {
@@ -25,4 +36,33 @@ for(let i = 0; i < 11; i++)
     site[i] = document.getElementById("Histo_Site"+(i+1));
     site[i].setAttribute("height",valeur[i]);
     site[i].setAttribute("y",530-valeur[i]);
+
+    site[i].onmouseover = function()
+    {
+        var styleDgrm = getComputedStyle(site[i],"fill");
+        var couleur = styleDgrm.fill;
+        var_window.style.display = "block";
+        var_window.style.position = 'absolute';
+        var_window.style.borderColor = couleur;
+        var lineBreak = document.createElement('br');
+        var text1 = document.createTextNode("Site "+(i+1));
+        var text2 = document.createTextNode('Puissance Produite: '+Math.round(production[i])+" MW");
+        var_window.appendChild(text1);
+        var_window.appendChild(lineBreak);
+        var_window.appendChild(text2);
+    }
+    site[i].onmousemove = function()
+    {
+        var_window.style.left = event.clientX-150 + 'px';
+        var_window.style.top = event.clientY-130 + 'px';
+    }
+    site[i].onmouseout = function()
+    {
+        var_window.style.display= "none";
+ 
+        while(var_window.firstChild)
+        {
+          var_window.removeChild(var_window.firstChild);
+        }
+    }
 }
