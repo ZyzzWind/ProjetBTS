@@ -12,16 +12,53 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
   <link rel="stylesheet" href="bouttons.css"/>
   <link rel="stylesheet" href="graphProgression.css"/>
   <link rel="stylesheet" href="graphProgressionJour.css"/>
-
+  <link rel="stylesheet" href="testphpformulaire.css"/>
 </head>
+
+
 <body>
 <?php include('header.php') ?>
   <div class="particles"></div>
   <script type="text/javascript" src="./scripts/ShaderProgram.js"></script>
   <script type="text/javascript" src="./scripts/Stats2.js"></script>
   <script type="text/javascript" src="./scripts/Snow.js"></script>
+  <script type="text/javascript" src="./scripts/function_calcul.js"></script>
 
-  <div class="rose">
+<div class="rose">
+
+<div id="formulaire">
+
+  <form method="POST" id="form">
+   <p> Eolienne<br /></p>
+   <select id="Eolien">
+      <option value="01">Eolienne 1</option>
+      <option value="02">Eolienne 2</option>
+   </select>
+   
+    <p>Annee<br /></p>
+   <select id="Annee">
+      <option value="2020">2020</option>
+   </select>
+
+    <p>PiouPiou<br /></p>
+     <select id="Pioupiou">
+      <option value="01">Pioupiou 1</option>
+      <option value="02">Pioupiou 2</option>
+   </select>
+
+    <p>
+   <input type="reset" name="Annuler" value="Annuler" />
+    </p>
+  </form>
+  <input type="button" value="Envoyer"  onclick="calcul()"/>
+
+</div>
+
+  <!-- -->
+
+<select name="mois" class="selectMoisPPE" dir="ltr" id="selectMoisPPE" lang="fr"></select>
+
+  <div id="window_e1"></div>
 
 
   <!--
@@ -34,8 +71,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
   -->
 
 
-  <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img">
-  <title id="title">Graphique de la progression de la production</title>
+  <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" id="graph" aria-labelledby="title" role="img">
 
   <g class="grid x-grid" id="xGrid">
   <line x1="90" x2="90" y1="0" y2="530"></line>
@@ -70,7 +106,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
  <text x="50" y="290" class="label-title">Mw</text>
 </g>
 <!-- height = prod energetique y = 530 - height -->
-<g class="data" data-setname="Our first data set">
+<g id="histo_mois" class="data" data-setname="Our first data set">
   <rect id="Histo_Janvier" x="90" y="0" width="50" height="0"  ></rect>
   <rect id="Histo_Fevrier" x="195" y="0" width="50" height="0" ></rect>
   <rect id="Histo_Mars" x="290" y="0" width="50" height="0" ></rect>
@@ -97,8 +133,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
   -->
 
 
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graphJour" aria-labelledby="title" role="img">
-  <title id="title">Graphique de la progression de la production</title>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graphJour" id="graphJour" aria-labelledby="title" role="img">
 
   <g class="grid x-grid" id="xGrid">
   <line x1="90" x2="90" y1="0" y2="530"></line>
@@ -187,9 +222,12 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 
 </g>
 </svg>
+<?php include('./scripts/gestion_données_progression.php'); ?>
 
 </div>
 
-<script type="text/javascript" src="./scripts/affichage_données_progression.js"></script>
+<!--<script type="text/javascript" src="./scripts/affichage_données_progression.js"></script>-->
+<script type="text/javascript" src="./scripts/function_calcul.js"></script>
+<!--<script type="text/javascript" src="./scripts/gestion_données_progression.js"></script>-->
 </body>
 </html>
