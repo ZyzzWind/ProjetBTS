@@ -794,43 +794,382 @@ function eolienne_reset_select() {
     while (sel.firstChild) {
         sel.removeChild(sel.firstChild) ;
     }
+}
 
-    /*function pioupiou_add_1() {
-        for(let i = 0; i < 11; i++) {
-				valeur[i] = (production[i]/max)*530;
-				site[i] = document.getElementById("Histo_Site"+(i+1));
-				site[i].setAttribute("height",valeur[i]);
-				site[i].setAttribute("y",530-valeur[i]);
+function pioupiou_add_1() {
+    document.getElementById('selectPiouPiouCPS3').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_reset').style.display = "block" ;
+    document.getElementById('boutton_CPS_1').style.display = "none" ;
+    document.getElementById('boutton_CPS_2').style.display = "block" ;
 
-				site[i].onmouseover = function()
-				{
-					
-					var styleDgrm = getComputedStyle(site[i],"fill");
-					var couleur = styleDgrm.fill;
-					var_window.style.display = "block";
-					var_window.style.position = 'absolute';
-					var_window.style.borderColor = couleur;
-					var lineBreak = document.createElement('br');
-					var text1 = document.createTextNode("Site "+(i+1));
-					var text2 = document.createTextNode('Puissance Produite: '+Math.round(production[i])+" MW");
-					var_window.appendChild(text1);
-					var_window.appendChild(lineBreak);
-					var_window.appendChild(text2);
-				}
-				site[i].onmousemove = function()
-				{
-					var_window.style.left = event.clientX-150 + 'px';
-					var_window.style.top = event.clientY-130 + 'px';
-				}
-				site[i].onmouseout = function()
-				{
-					var_window.style.display= "none";
-			
-					while(var_window.firstChild)
-					{
-					var_window.removeChild(var_window.firstChild);
-					}
-				}
-			}
-    }*/
+    var select = document.getElementById('selectPiouPiouCPS3') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 3 ---", "ID_PiouPiou_3") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS3').selectedIndex = 'ID_PiouPiou_3' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_2() {
+    document.getElementById('selectPiouPiouCPS4').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_2').style.display = "none" ;
+    document.getElementById('boutton_CPS_3').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS4') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 4 ---", "ID_PiouPiou_4") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS4').selectedIndex = 'ID_PiouPiou_4' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_3() {
+    document.getElementById('selectPiouPiouCPS5').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_3').style.display = "none" ;
+    document.getElementById('boutton_CPS_4').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS5') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 5 ---", "ID_PiouPiou_5") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS5').selectedIndex = 'ID_PiouPiou_5' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_4() {
+    document.getElementById('selectPiouPiouCPS6').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_4').style.display = "none" ;
+    document.getElementById('boutton_CPS_5').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS6') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 6 ---", "ID_PiouPiou_6") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS6').selectedIndex = 'ID_PiouPiou_6' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_5() {
+    document.getElementById('selectPiouPiouCPS7').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_5').style.display = "none" ;
+    document.getElementById('boutton_CPS_6').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS7') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 7 ---", "ID_PiouPiou_7") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS7').selectedIndex = 'ID_PiouPiou_7' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_6() {
+    document.getElementById('selectPiouPiouCPS8').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_6').style.display = "none" ;
+    document.getElementById('boutton_CPS_7').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS8') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 8 ---", "ID_PiouPiou_8") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS8').selectedIndex = 'ID_PiouPiou_8' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_7() {
+    document.getElementById('selectPiouPiouCPS9').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_7').style.display = "none" ;
+    document.getElementById('boutton_CPS_8').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS9') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 9 ---", "ID_PiouPiou_9") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS9').selectedIndex = 'ID_PiouPiou_9' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_8() {
+    document.getElementById('selectPiouPiouCPS10').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_8').style.display = "none" ;
+    document.getElementById('boutton_CPS_9').style.display = "block" ;
+
+    var select = document.getElementById('selectPiouPiouCPS10') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 10 ---", "ID_PiouPiou_10") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS10').selectedIndex = 'ID_PiouPiou_10' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_add_9() {
+    document.getElementById('selectPiouPiouCPS11').style.visibility = "visible" ;
+    document.getElementById('boutton_CPS_9').style.display = "none" ;
+
+    var select = document.getElementById('selectPiouPiouCPS11') ;
+
+    var ID_Eolienne = new Option ("--- ID du PiouPiou 11 ---", "ID_PiouPiou_11") ;
+    select.appendChild(ID_Eolienne) ;
+    document.getElementById('selectPiouPiouCPS11').selectedIndex = 'ID_PiouPiou_11' ;
+
+    var Option_1 = new Option ("001", "001") ;
+    var Option_2 = new Option ("002", "002") ;
+    var Option_3 = new Option ("003", "003") ;
+    var Option_4 = new Option ("004", "004") ;
+    var Option_5 = new Option ("005", "005") ;
+    var Option_6 = new Option ("006", "006") ;
+    var Option_7 = new Option ("007", "007") ;
+    var Option_8 = new Option ("008", "008") ;
+    var Option_9 = new Option ("009", "009") ;
+    var Option_10 = new Option ("010", "010") ;
+
+    select.appendChild(Option_1) ;
+    select.appendChild(Option_2) ;
+    select.appendChild(Option_3) ;
+    select.appendChild(Option_4) ;
+    select.appendChild(Option_5) ;
+    select.appendChild(Option_6) ;
+    select.appendChild(Option_7) ;
+    select.appendChild(Option_8) ;
+    select.appendChild(Option_9) ;
+    select.appendChild(Option_10) ;
+}
+
+function pioupiou_reset_select() {
+    document.getElementById('selectPiouPiouCPS11').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS10').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS9').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS8').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS7').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS6').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS5').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS4').style.visibility = "hidden" ;
+    document.getElementById('selectPiouPiouCPS3').style.visibility = "hidden" ;
+
+    document.getElementById('boutton_CPS_reset').style.display = "none" ;
+    
+    document.getElementById('boutton_CPS_1').style.display = "block" ;
+    document.getElementById('boutton_CPS_2').style.display = "none" ;
+    document.getElementById('boutton_CPS_3').style.display = "none" ;
+    document.getElementById('boutton_CPS_4').style.display = "none" ;
+    document.getElementById('boutton_CPS_5').style.display = "none" ;
+    document.getElementById('boutton_CPS_6').style.display = "none" ;
+    document.getElementById('boutton_CPS_7').style.display = "none" ;
+    document.getElementById('boutton_CPS_8').style.display = "none" ;
+    document.getElementById('boutton_CPS_9').style.display = "none" ;
+
+    document.getElementById('selectPiouPiouCPS1').selectedIndex = 'ID_pioupiou_1' ;
+    document.getElementById('selectPiouPiouCPS2').selectedIndex = 'ID_pioupiou_2' ;
+    
+    var sel = document.getElementById('selectPiouPiouCPS3') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS4') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS5') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS6') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS7') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS8') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS9') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS10') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
+    
+    var sel = document.getElementById('selectPiouPiouCPS11') ;
+    while (sel.firstChild) {
+        sel.removeChild(sel.firstChild) ;
+    }
 }
