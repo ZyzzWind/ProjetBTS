@@ -21,7 +21,43 @@
     content: "Déconnexion";
   }
 
-  .boutton_CPS::after{
+  .boutton_CPS_reset::after{
+    content: "Reinitialiser la page";
+  }
+
+  .boutton_CPS_1::after{
+    content: "Ajouter un PiouPiou"
+  }
+ 
+  .boutton_CPS_2::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_3::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_4::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_5::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_6::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_7::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_8::after{
+    content: "Ajouter un PiouPiou"
+  }
+
+  .boutton_CPS_9::after{
     content: "Ajouter un PiouPiou"
   }
 
@@ -76,12 +112,6 @@
   .boutton_CPE_11::after{
     content: "Ajouter une éolienne"
   }
-  /***********************************/
-    .boutton_CPS_1::after{
-    content: "Ajouter un PiouPiou"
-  }
-
-  /***********************************/
 
   .boutton_RDV_1::after{
     content: "Ajouter une rose des vents"
@@ -192,7 +222,169 @@
     text-decoration:none
   }
 
-  .boutton_CPS {
+  .boutton_CPS_reset {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_2 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_3 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_4 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_5 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_6 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_7 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_8 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(+250%, -50%);
+    z-index: 2;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration:none
+  }
+
+  .boutton_CPS_9 {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
@@ -592,7 +784,43 @@
     text-align: center;
   }
 
-  .boutton_CPS:hover {
+  .boutton_CPS_reset {
+    background-color: black;
+  }
+
+  .boutton_CPS_1:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_2:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_3:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_4:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_5:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_6:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_7:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_8:hover {
+    background-color: black;
+  }
+
+  .boutton_CPS_9:hover {
     background-color: black;
   }
 
@@ -722,25 +950,6 @@
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 13%;
-    left: 50%;
-    transform: translate(+250%, -50%);
-    z-index: 2;
-    width: 12%;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration:none
-  }
-
-
-  .boutton_CPS_1 {
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 6%;
     left: 50%;
     transform: translate(+250%, -50%);
     z-index: 2;

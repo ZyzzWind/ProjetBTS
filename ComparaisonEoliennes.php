@@ -31,7 +31,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 <div class="rose">
 <div id="window_e1"></div>
 
-		<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graphComp" aria-labelledby="title" role="img" >
+		<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graphComp" aria-labelledby="title" role="img">
 			<g class="grid x-grid" id="xGrid">
 			<line x1="90" x2="90" y1="0" y2="530"></line>
 			</g>
@@ -101,6 +101,9 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 			<a href="#" onclick="eolienne_add_9()" id="boutton_CPE_9" class="boutton_CPE_9" style="display:none"></a>
 			<a href="#" onclick="eolienne_add_10()" id="boutton_CPE_10" class="boutton_CPE_10" style="display:none"></a>
 			<a href="#" onclick="eolienne_add_11()" id="boutton_CPE_11" class="boutton_CPE_11" style="display:none"></a>
+			<a href="#" onclick="eolienne_add_12()" id="boutton_CPE_12" class="boutton_CPE_12" style="display:none"></a>
+			<a href="#" onclick="eolienne_add_13()" id="boutton_CPE_13" class="boutton_CPE_13" style="display:none"></a>
+			<a href="#" onclick="eolienne_add_14()" id="boutton_CPE_14" class="boutton_CPE_14" style="display:none"></a>
 			<select name="année" class="selectAnneeCPE" dir="ltr" id="selectAnneeCPE" lang="fr">
 
 				<option selected="value" value="Annné" >---   Année  ---</option>

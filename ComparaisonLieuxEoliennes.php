@@ -21,6 +21,7 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 	<script type="text/javascript" src="./scripts/Snow.js"></script>
 	<?php include('header.php') ?>
 
+<script type="application/javascript" src="./scripts/button_add.js"></script>
 <script type="application/javascript" src="./scripts/var_globales.js"></script>
 <script type="application/javascript" src="./scripts/creation_zone.js"></script>
 <script type="application/javascriptt" src="./scripts/periode_de_visualisation.js"></script>
@@ -94,23 +95,17 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 			<!-- Formulaire -->
 				<!-- Période -->
 			
-			<a href="#" onclick="eolienne_reset_select()" id="boutton_CPE_reset" class="boutton_CPE_reset" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_1()" id="boutton_CPS_1" class="boutton_CPS_1" style="display:block"></a>
-			<a href="#" onclick="eolienne_add_2()" id="boutton_CPS_1" class="boutton_CPE_2" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_3()" id="boutton_CPS_1" class="boutton_CPE_3" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_4()" id="boutton_CPS_1" class="boutton_CPE_4" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_5()" id="boutton_CPE_5" class="boutton_CPE_5" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_6()" id="boutton_CPE_6" class="boutton_CPE_6" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_7()" id="boutton_CPE_7" class="boutton_CPE_7" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_8()" id="boutton_CPE_8" class="boutton_CPE_8" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_9()" id="boutton_CPE_9" class="boutton_CPE_9" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_10()" id="boutton_CPE_10" class="boutton_CPE_10" style="display:none"></a>
-			<a href="#" onclick="eolienne_add_11()" id="boutton_CPE_11" class="boutton_CPE_11" style="display:none"></a>
+			<a href="#" onclick="pioupiou_reset_select()" id="boutton_CPS_reset" class="boutton_CPS_reset" style="display:none"></a>
 
-
-
-
-
+			<a href="#" onclick="pioupiou_add_1()" id="boutton_CPS_1" class="boutton_CPS_1" style="display:block"></a>
+			<a href="#" onclick="pioupiou_add_2()" id="boutton_CPS_2" class="boutton_CPS_2" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_3()" id="boutton_CPS_3" class="boutton_CPS_3" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_4()" id="boutton_CPS_4" class="boutton_CPS_4" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_5()" id="boutton_CPS_5" class="boutton_CPS_5" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_6()" id="boutton_CPS_6" class="boutton_CPS_6" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_7()" id="boutton_CPS_7" class="boutton_CPS_7" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_8()" id="boutton_CPS_8" class="boutton_CPS_8" style="display:none"></a>
+			<a href="#" onclick="pioupiou_add_9()" id="boutton_CPS_9" class="boutton_CPS_9" style="display:none"></a>
 			<select name="année" class="selectAnneeCPS" dir="ltr" id="selectAnneeCPS" lang="fr">
 
 				<option selected="value" value="Annné" >---   Année  ---</option>
@@ -254,6 +249,10 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 
 			</select>
 
+		<select name="PiouPiou" class="selectPiouPiouCPS3" dir="ltr" id="selectPiouPiouCPS3" lang="fr">
+
+		</select>	
+
 		<select name="PiouPiou" class="selectPiouPiouCPS4" dir="ltr" id="selectPiouPiouCPS4" lang="fr">
 
 		</select>	
@@ -279,6 +278,10 @@ print('<?xml version="1.0" encoding="UTF-8"?>');
 		</select>	
 
 		<select name="PiouPiou" class="selectPiouPiouCPS10" dir="ltr" id="selectPiouPiouCPS10" lang="fr">
+
+		</select>	
+		
+		<select name="PiouPiou" class="selectPiouPiouCPS11" dir="ltr" id="selectPiouPiouCPS11" lang="fr">
 
 		</select>	
 

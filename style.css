@@ -94,4 +94,12 @@
 
     .selectPiouPiouCPS1 { position: absolute; left: 1%; right: 0%; top: 14%; bottom: 0%; height: 20px; width: 150px; }
     .selectPiouPiouCPS2 { position: absolute; left: 1%; right: 0%; top: 19%; bottom: 0%; height: 20px; width: 150px; }
-    
+    .selectPiouPiouCPS3 { position: absolute; left: 1%; right: 0%; top: 24%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS4 { position: absolute; left: 1%; right: 0%; top: 29%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS5 { position: absolute; left: 1%; right: 0%; top: 34%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS6 { position: absolute; left: 1%; right: 0%; top: 39%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS7 { position: absolute; left: 1%; right: 0%; top: 44%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS8 { position: absolute; left: 1%; right: 0%; top: 49%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS9 { position: absolute; left: 1%; right: 0%; top: 54%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS10 { position: absolute; left: 1%; right: 0%; top: 59%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
+    .selectPiouPiouCPS11 { position: absolute; left: 1%; right: 0%; top: 64%; bottom: 0%; height: 20px; width: 150px; visibility: hidden; }
