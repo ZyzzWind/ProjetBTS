@@ -13,7 +13,8 @@ Pré-requis
 Installation
 
 - Mettre le site sur votre serveur web.
-- Installer la base de données présente dans le dossier. 
+- Installer la base de données présente dans le dossier.
+- Installer la sauvegarde de la base de données "savebdd.sql"
 - Installer Crontab
 - Modifier le fichier Crontab en ajoutant la ligne "0 0 * * * 'chemin vers le fichier recup.sh dans le dossier script'"
 
