@@ -27,3 +27,4 @@ Réalisé avec
 - Visual Studio Code - Editeur de textes
 - Firefox/Chrome/Opera - Navigateur web
 - VirtualBox - Logiciel de virtualisation
+- MySQL Workbench -  logiciel de gestion et d'administration de bases de données MySQL
