@@ -6,7 +6,7 @@ sur la période choisie et le lieu choisi. De plus il permet une
 
 Pré-requis
 
-- Une machine sous Debian 9 ou 10
+- Une machine sous OS GNU/Linux
 - Installation de Crontab
 - Un serveur web
 
